@@ -7,6 +7,7 @@ package crunchify.com.web.service;
 public class CrunchifyHelloWorld {
  
 	public float addValue(float value) {
+		System.out.println("value: " + value);
 		return (value + 10);
 	}
  
